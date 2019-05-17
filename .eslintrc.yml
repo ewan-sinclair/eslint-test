@@ -18,6 +18,8 @@ rules:
   no-restricted-syntax: 0
   indent: ['error', 'tab']
   no-tabs: ['error', { allowIndentationTabs: true }]
+  no-plusplus: ['off', { allowForLoopAfterthoughts: true }]
+  no-unused-vars: ['error']
 
 #####################
 # Jest plugin seems uneccessary with env:jest:true applied
