@@ -23,10 +23,12 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "*.js"
+      "src/**/*.js"
     ],
     "coveragePathIgnorePatterns": [
-      "/node_modules/"
+      "/node_modules/",
+			"/lint-bad.js",
+			"/lint-good.js"
     ],
     "coverageThreshold": {
       "global": {
