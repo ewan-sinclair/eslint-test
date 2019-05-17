@@ -27,8 +27,7 @@
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",
-			"/lint-bad.js",
-			"/lint-good.js"
+      "/lint-.*\\.js"
     ],
     "coverageThreshold": {
       "global": {
